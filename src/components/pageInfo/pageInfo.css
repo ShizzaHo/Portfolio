@@ -1,0 +1,33 @@
+.page1{
+    height: 100%;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.page1 h1 {
+    font-weight: 1000;
+    font-size: 2vmax;
+}
+
+.page1 p {
+    font-size: 1.3vmax;
+    max-width: 70%;
+}
+
+.page1 ul {
+    margin-left: 24px;
+    font-size: 1.3vmax;
+    max-width: 70%;
+}
+
+.orangeText{
+    color: #FF9900;
+}
+
+.underlineText{
+    text-decoration: underline;
+}

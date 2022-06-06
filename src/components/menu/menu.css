@@ -1,0 +1,53 @@
+.menuBlock{
+    display: flex;
+    flex-direction: row;   
+    align-content: center;
+    justify-items: center;
+
+    position: fixed;
+    right: 20px;
+    top: 20px;
+
+    z-index: 999;
+
+    user-select: none;
+}
+
+.menuItem{
+    width: 50px;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    margin: 0px 4px;
+    transition: all 200ms ease-in-out;
+    padding-top: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: startMenu 600ms ease-in-out;
+
+    cursor: pointer;
+}
+
+.menuItem:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.menuItem__selected{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.menuItem__selected:hover{
+    background: rgba(255, 255, 255, 0.35);
+}
+
+@keyframes startMenu {
+    0% {
+        transform: translateY(-100px) translateX(100px) rotate(30deg);
+    }
+    100% {
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+}

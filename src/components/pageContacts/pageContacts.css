@@ -1,0 +1,48 @@
+.page3{
+    height: 100%;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;    
+    gap: 10%;
+}
+
+.page3 h1 {
+    font-weight: 1000;
+    font-size: 2vmax;
+    margin-bottom: 20px;
+}
+
+.listContacts{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contactBlock{
+    width: auto;
+    height: 72px;
+
+    padding: 0px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: all 400ms ease-in-out;
+}
+
+.contactBlock:hover{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.contactBlock img{
+    padding-right: 10px;
+}
