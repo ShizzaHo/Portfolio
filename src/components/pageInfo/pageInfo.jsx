@@ -14,10 +14,10 @@ export default function pageInfo() {
             <div>
                 <h1>Мои <span className='orangeText'>профессиональные</span> навыки</h1>
                 <ul>
-                    <li>HTML5, CSS3, JavaScript, TypeScript, React</li>
+                    <li>HTML5, CSS3, JavaScript, TypeScript, React + Redux</li>
                     <li>Опыт вёрстки с дизайн-макетов</li>
                     <li>Хорошее владение Figma/Photoshop</li>
-                    <li>Опыт работы с: MySQL, Bootstrap, ReactJS, NodeJS, Electron JS, ExpressJS</li>
+                    <li>Опыт работы с: MySQL, Bootstrap, NodeJS, Electron JS, ExpressJS, NextJS</li>
                     <li>Умение работать с GIT</li>
                 </ul>
             </div>
