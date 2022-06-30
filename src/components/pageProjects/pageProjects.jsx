@@ -27,9 +27,9 @@ export default function PageProjects() {
                 <h1 className='pp__title'>Мои <span className='orangeText'>рабочие</span> проекты</h1>
                 <div className='flex_projects'>
                     <ProjectBlock 
-                        title="Создатель демотиваторов" 
-                        desc="Простой создатель демотиваторов, с функцией ''тунельного'' демотиватора"
-                        image={proj1}
+                        title="Poster" 
+                        desc="Социальная сеть с широким функционалом"
+                        image={projOther2}
                         tech="JavaScript, React, Redux, Sass, ExpressJS"
                         visitVisible={false}
                         sourseVisible={true}
