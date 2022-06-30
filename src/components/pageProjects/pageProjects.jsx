@@ -30,6 +30,15 @@ export default function PageProjects() {
                         title="Создатель демотиваторов" 
                         desc="Простой создатель демотиваторов, с функцией ''тунельного'' демотиватора"
                         image={proj1}
+                        tech="JavaScript, React, Redux, Sass, ExpressJS"
+                        visitVisible={false}
+                        sourseVisible={true}
+                        sourse="https://github.com/ShizzaHo/Poster"
+                    />
+                    <ProjectBlock 
+                        title="Создатель демотиваторов" 
+                        desc="Простой создатель демотиваторов, с функцией ''тунельного'' демотиватора"
+                        image={proj1}
                         tech="JavaScript"
                         visitVisible={true}
                         visit="https://demotivatormaker.github.io/"
@@ -92,14 +101,6 @@ export default function PageProjects() {
                         visitVisible={false}
                         sourseVisible={true}
                         sourse="https://github.com/ShizzaHo/SZH-Remote"
-                    />
-                    <OtherProjectBlock 
-                        title="Poster" 
-                        desc="Мой эсксперимент по созданию своей ''социальной сети''"
-                        image={projOther2}
-                        visitVisible={false}
-                        sourseVisible={true}
-                        sourse="https://github.com/ShizzaHo/Poster"
                     />
                 </div>) : (<></>)}
             </div>
