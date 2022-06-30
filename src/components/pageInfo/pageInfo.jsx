@@ -14,7 +14,7 @@ export default function pageInfo() {
             <div>
                 <h1>Мои <span className='orangeText'>профессиональные</span> навыки</h1>
                 <ul>
-                    <li>HTML5, CSS3, JavaScript, TypeScript, React + Redux</li>
+                    <li>HTML5, CSS3, JavaScript, TypeScript, React + Redux, Sass</li>
                     <li>Опыт вёрстки с дизайн-макетов</li>
                     <li>Хорошее владение Figma/Photoshop</li>
                     <li>Опыт работы с: MySQL, Bootstrap, NodeJS, Electron JS, ExpressJS, NextJS</li>
