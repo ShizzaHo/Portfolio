@@ -30,7 +30,7 @@ export default function PageProjects() {
                         title="Poster" 
                         desc="Социальная сеть с широким функционалом"
                         image={projOther2}
-                        tech="JavaScript, React, Redux, Sass, ExpressJS"
+                        tech="JavaScript, React, Redux, Sass, ExpressJS, MongoDB"
                         visitVisible={false}
                         sourseVisible={true}
                         sourse="https://github.com/ShizzaHo/Poster"
