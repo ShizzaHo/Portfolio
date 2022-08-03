@@ -102,6 +102,14 @@ export default function PageProjects() {
                         sourseVisible={true}
                         sourse="https://github.com/ShizzaHo/SZH-Remote"
                     />
+                    <OtherProjectBlock 
+                        title="Express boilerplate" 
+                        desc="Шаблон для Express приложения"
+                        image="https://i.ibb.co/jWPySMP/image.png"
+                        visitVisible={false}
+                        sourseVisible={true}
+                        sourse="https://github.com/ShizzaHo/express-boilerplate"
+                    />
                 </div>) : (<></>)}
             </div>
         </div>
