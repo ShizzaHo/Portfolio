@@ -105,7 +105,7 @@ export default function PageProjects() {
                     <OtherProjectBlock 
                         title="Express boilerplate" 
                         desc="Шаблон для Express приложения"
-                        image="https://i.ibb.co/jWPySMP/image.png"
+                        image="https://i.ibb.co/LR1NbFx/image.png"
                         visitVisible={false}
                         sourseVisible={true}
                         sourse="https://github.com/ShizzaHo/express-boilerplate"
